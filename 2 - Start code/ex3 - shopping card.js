@@ -75,7 +75,7 @@ function removeProductFromCart(productId) {
     shopC.quantity--;
   }
   else if(shopC && shopC.quantity === 1){
-    SHOPPING_CART.pop();
+    SHOPPING_CART.splice(productId, 1);
   }
   else{return;}
   
