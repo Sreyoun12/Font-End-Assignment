@@ -6,7 +6,7 @@
 // TODO:
 // - Update the data strucure and the functions to manage those new properties
 const STUDENTS_DATA = [
-  { firstName: "An", lastName: "Luy", batch: "A", age: 20 },
+  { firstName: "An", lastName: "Liy", batch: "A", age: 20 },
   { firstName: "Bình", lastName: "Moeng", batch: "A",age: 22 },
   { firstName: "Cẩm", lastName: "ngen", batch: "B", age: 21 },
   { firstName: "An", lastName: "Meng", batch: "B", age: 19 }, // Duplicate first name !
